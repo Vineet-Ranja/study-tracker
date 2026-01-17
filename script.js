@@ -1,4 +1,4 @@
-const subjects = ["Maths", "Physics", "Chemistry", "English", "CS", "Yoga"];
+const subjects = ["Maths/Hindi", "Physics", "Chemistry", "English", "CS/Bio", "Yoga"];
 const container = document.getElementById("subjects");
 
 let data = JSON.parse(localStorage.getItem("studyData")) || {};
@@ -65,3 +65,4 @@ function toggle(sub) {
 
 setInterval(updateUI, 1000);
 updateUI();
+

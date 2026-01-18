@@ -8,11 +8,19 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  margin-top: 20px;
+}
+
+#subjects {
+  margin-top: 20px;
+}
+
 .subject {
   background: white;
   padding: 15px;
   margin: 10px auto;
-  max-width: 400px;
+  max-width: 420px;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
@@ -22,7 +30,7 @@ h1 {
 }
 
 .time {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
@@ -36,8 +44,8 @@ button {
   background: #222;
   color: white;
   text-align: center;
-  padding: 20px;
-  max-width: 400px;
-  margin: 20px auto;
+  padding: 18px;
+  max-width: 420px;
+  margin: 15px auto;
   border-radius: 10px;
 }
